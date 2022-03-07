@@ -1,0 +1,18 @@
+{
+    "scale": {
+        "customers": 10,
+        "airlines": 10,
+        "flights_per_airline": 3,
+        "tickets_per_customer": 1
+    },
+    "db": {
+        "client": "pg",
+        "version": "12",
+        "connection": {
+          "host" : "127.0.0.1",
+          "user" : "postgres",
+          "password" : "admin",
+          "database" : "final_projectDB"
+        }
+    }
+}
